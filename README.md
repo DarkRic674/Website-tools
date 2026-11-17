@@ -9,11 +9,11 @@ List of tools for a website.
 
 ## 🇫🇷 Français
 
-Trois outils pour récupérer et gérer de grandes collections d'images. Ils fonctionnent sous Windows et ne demandent que [Python](https://www.python.org/downloads/) 3.8 ou plus récent (coche « Add to PATH » à l'installation). Aucune bibliothèque supplémentaire n'est nécessaire.
+Trois outils pour récupérer et gérer de grandes collections d'images. Ils fonctionnent sous Windows.
 
 **Langue :** chaque outil propose un menu déroulant (Français, English, 日本語, Español). Le choix est mémorisé et partagé entre les trois outils.
 
-### 1. Image Extractor (`image_extractor.py`)
+### 1. Image Extractor (`image_extractor.exe`)
 Télécharge les images d'un ou plusieurs sites web.
 
 - **Modes :**
@@ -22,8 +22,7 @@ Télécharge les images d'un ou plusieurs sites web.
   - *Site entier* : suit les liens du même domaine (nombre de pages max réglable, 100 par défaut).
 - **Formats :** .jpg, .png, .gif, .webp, .svg, .bmp, .avif, .ico (cases à cocher).
 - **Options :** taille minimale en Ko (pour ignorer les miniatures), sous-dossier par domaine, bouton Arrêter, bouton Ouvrir le dossier.
-- **Lancer :** double-clique sur `image_extractor.py`.
-- **Créer un .exe :** place `image_extractor.py` et `build.bat` dans le même dossier, puis lance `build.bat`. Le fichier `ImageExtractor.exe` apparaît dans le dossier `dist`. En cas d'erreur « pathlib », exécute `python -m pip uninstall pathlib -y` puis relance.
+- **Lancer :** double-clique sur `image_extractor.exe`.
 - **Limites :** les images chargées uniquement par JavaScript (scroll infini, galeries dynamiques) ne sont pas toutes détectées. Respecte les conditions d'utilisation des sites et les droits d'auteur.
 
 ### 2. Supprimer les doublons (`supprimer_doublons.py`)
@@ -48,11 +47,11 @@ Répartit les fichiers d'un dossier dans des sous-dossiers `Lot_001`, `Lot_002`�
 
 ## 🇬🇧 English
 
-Three tools to collect and manage large image collections. They run on Windows and only require [Python](https://www.python.org/downloads/) 3.8 or newer (tick "Add to PATH" during installation). No extra libraries are needed.
+Three tools to collect and manage large image collections. They run on Windows.
 
 **Language:** every tool has a drop-down menu (Français, English, 日本語, Español). Your choice is remembered and shared across the three tools.
 
-### 1. Image Extractor (`image_extractor.py`)
+### 1. Image Extractor (`image_extractor.exe`)
 Downloads images from one or several websites.
 
 - **Modes:**
@@ -61,8 +60,7 @@ Downloads images from one or several websites.
   - *Entire site*: follows links within the same domain (adjustable max pages, 100 by default).
 - **Formats:** .jpg, .png, .gif, .webp, .svg, .bmp, .avif, .ico (checkboxes).
 - **Options:** minimum size in KB (to skip thumbnails), subfolder per domain, Stop button, Open folder button.
-- **Run:** double-click `image_extractor.py`.
-- **Build an .exe:** put `image_extractor.py` and `build.bat` in the same folder and run `build.bat`. `ImageExtractor.exe` appears in the `dist` folder. If you get a "pathlib" error, run `python -m pip uninstall pathlib -y` and try again.
+- **Run:** double-click `image_extractor.exe`.
 - **Limitations:** images loaded only through JavaScript (infinite scroll, dynamic galleries) may not all be detected. Respect website terms of use and copyright.
 
 ### 2. Delete duplicates (`supprimer_doublons.py`)
@@ -87,11 +85,11 @@ Splits the files of a folder into subfolders `Lot_001`, `Lot_002`… (1000 files
 
 ## 🇯🇵 日本語
 
-大量の画像を取得・管理するための3つのツールです。Windowsで動作し、[Python](https://www.python.org/downloads/) 3.8以降だけが必要です（インストール時に「Add to PATH」にチェックを入れてください）。追加のライブラリは不要です。
+大きな画像コレクションを回収して管理するための3つのツール。Windowsで動作します。
 
 **言語：** すべてのツールにドロップダウンメニュー（Français、English、日本語、Español）があります。選択した言語は記憶され、3つのツールで共有されます。
 
-### 1. Image Extractor（`image_extractor.py`）
+### 1. Image Extractor（`image_extractor.exe`）
 1つまたは複数のウェブサイトから画像をダウンロードします。
 
 - **モード：**
@@ -100,8 +98,7 @@ Splits the files of a folder into subfolders `Lot_001`, `Lot_002`… (1000 files
   - *サイト全体*：同じドメイン内のリンクをたどります（最大ページ数は変更可能、初期値は100）。
 - **形式：** .jpg、.png、.gif、.webp、.svg、.bmp、.avif、.ico（チェックボックスで選択）。
 - **オプション：** 最小サイズ（KB、サムネイルの除外用）、ドメインごとのサブフォルダ、停止ボタン、フォルダを開くボタン。
-- **起動：** `image_extractor.py`をダブルクリックします。
-- **.exeの作成：** `image_extractor.py`と`build.bat`を同じフォルダに置き、`build.bat`を実行します。`dist`フォルダに`ImageExtractor.exe`が作成されます。「pathlib」のエラーが出た場合は、`python -m pip uninstall pathlib -y`を実行してからやり直してください。
+- **起動：** `image_extractor.exe`をダブルクリックします。
 - **制限事項：** JavaScriptだけで読み込まれる画像（無限スクロールや動的ギャラリー）はすべて検出できない場合があります。ウェブサイトの利用規約と著作権を尊重してください。
 
 ### 2. 重複ファイルの削除（`supprimer_doublons.py`）
@@ -126,11 +123,11 @@ Splits the files of a folder into subfolders `Lot_001`, `Lot_002`… (1000 files
 
 ## 🇪🇸 Español
 
-Tres herramientas para recopilar y gestionar grandes colecciones de imágenes. Funcionan en Windows y solo requieren [Python](https://www.python.org/downloads/) 3.8 o superior (marca «Add to PATH» durante la instalación). No hacen falta bibliotecas adicionales.
+Tres herramientas para recopilar y gestionar grandes colecciones de imágenes. Funcionan en Windows.
 
 **Idioma:** cada herramienta tiene un menú desplegable (Français, English, 日本語, Español). La elección se guarda y se comparte entre las tres herramientas.
 
-### 1. Image Extractor (`image_extractor.py`)
+### 1. Image Extractor (`image_extractor.exe`)
 Descarga imágenes de uno o varios sitios web.
 
 - **Modos:**
@@ -139,8 +136,7 @@ Descarga imágenes de uno o varios sitios web.
   - *Sitio completo*: sigue los enlaces del mismo dominio (máximo de páginas ajustable, 100 por defecto).
 - **Formatos:** .jpg, .png, .gif, .webp, .svg, .bmp, .avif, .ico (casillas de verificación).
 - **Opciones:** tamaño mínimo en KB (para omitir miniaturas), subcarpeta por dominio, botón Detener, botón Abrir carpeta.
-- **Ejecutar:** haz doble clic en `image_extractor.py`.
-- **Crear un .exe:** coloca `image_extractor.py` y `build.bat` en la misma carpeta y ejecuta `build.bat`. `ImageExtractor.exe` aparecerá en la carpeta `dist`. Si aparece un error de «pathlib», ejecuta `python -m pip uninstall pathlib -y` y vuelve a intentarlo.
+- **Ejecutar:** haz doble clic en `image_extractor.exe`.
 - **Limitaciones:** las imágenes que se cargan solo mediante JavaScript (scroll infinito, galerías dinámicas) pueden no detectarse todas. Respeta las condiciones de uso de los sitios y los derechos de autor.
 
 ### 2. Eliminar duplicados (`supprimer_doublons.py`)
